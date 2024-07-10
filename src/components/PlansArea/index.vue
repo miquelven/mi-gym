@@ -11,6 +11,7 @@ import CarouselContainer from "../CarouselContainer/index.vue";
 
 <template>
   <section
+    id="planos"
     class="mb-60 relative z-10 h-full w-full bg-no-repeat bg-top bg-cover py-20"
     :style="{ backgroundImage: `url(${plansImg})` }"
   >
