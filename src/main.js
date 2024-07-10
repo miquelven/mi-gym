@@ -14,6 +14,7 @@ import {
   IoLocationSharp,
   BiTelephoneFill,
   MdEmail,
+  BiArrowUp,
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -25,7 +26,8 @@ addIcons(
   RiInstagramFill,
   IoLocationSharp,
   BiTelephoneFill,
-  MdEmail
+  MdEmail,
+  BiArrowUp
 );
 
 const app = createApp(App);
