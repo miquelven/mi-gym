@@ -6,8 +6,8 @@ const linksData = [
   },
   {
     id: 2,
-    text: "Serviços",
-    href: "#servicos",
+    text: "Modalidades",
+    href: "#modalidades",
   },
   {
     id: 3,
