@@ -5,7 +5,7 @@ import logo from "../../assets/imgs/logoMiGym.png";
 </script>
 
 <template>
-  <footer class="py-20">
+  <footer class="pt-20">
     <Container>
       <ul
         class="grid grid-cols-3 gap-20 font-light max-lg:grid-cols-2 max-lg:gap-y-28 max-md:grid-cols-1 max-md:gap-16"
@@ -85,5 +85,11 @@ import logo from "../../assets/imgs/logoMiGym.png";
         </ul>
       </ul>
     </Container>
+
+    <div class="mt-24 py-5 border-t border-white/10">
+      <p class="text-center font-light max-sm:text-sm">
+        Desenvolvido por <span class="font-bold">Miquelven</span>
+      </p>
+    </div>
   </footer>
 </template>
