@@ -11,9 +11,22 @@ import {
   CoFacebookF,
   BiTwitter,
   RiInstagramFill,
+  IoLocationSharp,
+  BiTelephoneFill,
+  MdEmail,
 } from "oh-vue-icons/icons";
 
-addIcons(FaBars, IoClose, BiWhatsapp, CoFacebookF, BiTwitter, RiInstagramFill);
+addIcons(
+  FaBars,
+  IoClose,
+  BiWhatsapp,
+  CoFacebookF,
+  BiTwitter,
+  RiInstagramFill,
+  IoLocationSharp,
+  BiTelephoneFill,
+  MdEmail
+);
 
 const app = createApp(App);
 
