@@ -30,7 +30,7 @@ onUnmounted(() => {
 <template>
   <button
     @click="scrollTop"
-    class="transition-all shadow-md shadow-black/50 bg-black/50 p-2 duration-300 fixed bottom-16 right-10 cursor-pointer hover:scale-110 hover:bg-black/50 z-10 max-sm:right-4"
+    class="transition-all shadow-md shadow-black/50 bg-black/50 p-2 duration-300 fixed bottom-16 right-10 cursor-pointer hover:scale-110 hover:bg-black/50 z-30 max-sm:right-4"
     :class="`${showButton ? 'opacity-100' : 'opacity-0'}`"
   >
     <v-icon name="bi-arrow-up" class="w-8 h-8 max-sm:w-7 max-sm:h-7" />
