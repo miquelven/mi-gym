@@ -4,9 +4,16 @@ import "./main.css";
 import App from "./App.vue";
 
 import { OhVueIcon, addIcons } from "oh-vue-icons";
-import { FaBars, IoClose, BiWhatsapp } from "oh-vue-icons/icons";
+import {
+  FaBars,
+  IoClose,
+  BiWhatsapp,
+  CoFacebookF,
+  BiTwitter,
+  RiInstagramFill,
+} from "oh-vue-icons/icons";
 
-addIcons(FaBars, IoClose, BiWhatsapp);
+addIcons(FaBars, IoClose, BiWhatsapp, CoFacebookF, BiTwitter, RiInstagramFill);
 
 const app = createApp(App);
 
