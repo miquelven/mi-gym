@@ -13,10 +13,35 @@ body {
   color: #fff;
 }
 
+.carousel__pagination-button::after {
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 50% !important;
+  background: #00000032 !important;
+}
+
+.carousel__pagination-button--active::after {
+  background: #000000 !important;
+}
+
+.carousel__next,
+.carousel__prev {
+  padding: 20px 8px !important;
+}
+
+#avaliacoes .carousel__pagination-button--active::after {
+  background-color: #ef233c !important;
+}
+
 @media screen and (max-width: 520px) {
   .carousel__next svg,
   .carousel__prev svg {
     color: white;
+  }
+
+  #avaliacoes .carousel__next svg,
+  #avaliacoes .carousel__prev svg {
+    color: black;
   }
 
   #planos .carousel__pagination-button::after {
