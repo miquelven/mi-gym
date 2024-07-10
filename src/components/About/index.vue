@@ -8,6 +8,9 @@ import aboutImg from "../../assets/imgs/about.webp";
   <section id="sobre" class="my-40">
     <Container>
       <div
+        data-aos="fade-up"
+        data-aos-delay="400"
+        data-aos-duration="1000"
         class="grid grid-cols-2 gap-20 max-xl:gap-10 max-lg:flex max-lg:flex-col-reverse max-lg:gap-14 max-sm:gap-8"
       >
         <img

@@ -8,6 +8,9 @@ import logo from "../../assets/imgs/logoMiGym.png";
   <footer class="pt-20">
     <Container>
       <ul
+        data-aos="fade-up"
+        data-aos-delay="400"
+        data-aos-duration="1000"
         class="grid grid-cols-3 gap-20 font-light max-lg:grid-cols-2 max-lg:gap-y-28 max-md:grid-cols-1 max-md:gap-16"
       >
         <ul class="flex flex-col gap-8 max-sm:text-sm">

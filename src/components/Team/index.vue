@@ -18,6 +18,9 @@ import CarouselContainer from "../CarouselContainer/index.vue";
       <SectionTitle textColor="black"> Nossa Equipe </SectionTitle>
 
       <ul
+        data-aos="fade-up"
+        data-aos-delay="400"
+        data-aos-duration="1000"
         class="grid grid-cols-4 gap-10 mt-20 max-xl:gap-3 max-lg:grid-cols-2 max-lg:gap-y-14 max-sm:grid-cols-1"
       >
         <li v-for="team in teamData" :key="team.id" class="block max-sm:hidden">

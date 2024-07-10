@@ -18,6 +18,9 @@ import CarouselContainer from "../CarouselContainer/index.vue";
     <div class="absolute z-10 inset-0 bg-black/80"></div>
     <Container>
       <div
+        data-aos="fade-up"
+        data-aos-delay="400"
+        data-aos-duration="1000"
         class="relative z-20 flex flex-col gap-20 items-center justify-center"
       >
         <SectionTitle colorText="white"> Planos Disponíveis </SectionTitle>
