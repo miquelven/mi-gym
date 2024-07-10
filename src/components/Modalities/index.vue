@@ -1,12 +1,13 @@
 <script setup>
 import WhatsappButton from "../WhatsappButton/index.vue";
+import SectionTitle from "../SectionTitle/index.vue";
 
 import modalitiesData from "../../data/modalitiesData";
 </script>
 
 <template>
-  <section class="my-72">
-    <h2 class="text-center text-4xl font-bold">Modalidades Disponíveis</h2>
+  <section class="mt-72">
+    <SectionTitle> Modalidades Disponíveis </SectionTitle>
 
     <ul class="grid grid-cols-2 mt-20 max-sm:grid-cols-1">
       <li
