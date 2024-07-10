@@ -1,6 +1,7 @@
 <script setup>
 import Container from "../Container/index.vue";
 import linksData from "../../data/linksData";
+import logo from "../../assets/imgs/logoMiGym.png";
 import { ref, watch } from "vue";
 
 const showMenu = ref(true);
@@ -18,7 +19,11 @@ watch(showMenu, (newValue) => {
   <header class="relative py-5 shadow-sm shadow-white/10">
     <Container>
       <div class="flex justify-between items-center">
-        <h1>Logo</h1>
+        <img
+          :src="logo"
+          alt="Imagem da logo"
+          class="object-cover object-center invert h-8 w-8"
+        />
 
         <nav
           class="transition-all duration-500 max-md:fixed max-md:right-0 max-md:top-[-80vh] max-md:h-[80vh] max-md:w-screen max-md:bg-[#0a0a0a] max-md:flex max-md:justify-center max-md:items-center max-md:shadow-sm max-md:shadow-white/10 max-md:z-[-1] max-md:opacity-0 max-sm:h-screen"

@@ -1,6 +1,7 @@
 <script setup>
 import Container from "../Container/index.vue";
 import footerData from "../../data/footerData";
+import logo from "../../assets/imgs/logoMiGym.png";
 </script>
 
 <template>
@@ -11,7 +12,11 @@ import footerData from "../../data/footerData";
       >
         <ul class="flex flex-col gap-8 max-sm:text-sm">
           <li>
-            <h1>logo</h1>
+            <img
+              :src="logo"
+              alt="Imagem da logo"
+              class="w-10 h-10 objet-cover object-center invert"
+            />
           </li>
           <li>
             <p>
