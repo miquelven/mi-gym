@@ -6,6 +6,7 @@ import Modalities from "./components/Modalities/index.vue";
 import Team from "./components/Team/index.vue";
 import PlansArea from "./components/PlansArea/index.vue";
 import ReviewArea from "./components/ReviewArea/index.vue";
+import ToTopButton from "./components/ToTopButton/index.vue";
 import Footer from "./components/Footer/index.vue";
 </script>
 
@@ -17,5 +18,6 @@ import Footer from "./components/Footer/index.vue";
   <Team />
   <PlansArea />
   <ReviewArea />
+  <ToTopButton />
   <Footer />
 </template>
