@@ -5,6 +5,7 @@ import About from "./components/About/index.vue";
 import Modalities from "./components/Modalities/index.vue";
 import Team from "./components/Team/index.vue";
 import PlansArea from "./components/PlansArea/index.vue";
+import ReviewArea from "./components/ReviewArea/index.vue";
 </script>
 
 <template>
@@ -14,4 +15,5 @@ import PlansArea from "./components/PlansArea/index.vue";
   <Modalities />
   <Team />
   <PlansArea />
+  <ReviewArea />
 </template>
