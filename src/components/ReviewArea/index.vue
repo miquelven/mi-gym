@@ -7,7 +7,10 @@ import reviewData from "../../data/reviewData";
 </script>
 
 <template>
-  <section id="avaliacoes" class="pt-40 pb-20 bg-[#f3f0f1] text-black">
+  <section
+    id="avaliacoes"
+    class="pt-40 pb-20 bg-[#f3f0f1] text-black max-sm:-scroll-mt-72"
+  >
     <Container>
       <SectionTitle textColor="black"> Algumas Avaliações </SectionTitle>
 

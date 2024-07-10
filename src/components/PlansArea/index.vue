@@ -12,7 +12,7 @@ import CarouselContainer from "../CarouselContainer/index.vue";
 <template>
   <section
     id="planos"
-    class="relative z-10 h-full w-full bg-no-repeat bg-top bg-cover py-20"
+    class="relative z-10 h-full w-full bg-no-repeat bg-top bg-cover py-20 max-sm:-scroll-mt-72"
     :style="{ backgroundImage: `url(${plansImg})` }"
   >
     <div class="absolute z-10 inset-0 bg-black/80"></div>

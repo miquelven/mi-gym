@@ -10,7 +10,10 @@ import CarouselContainer from "../CarouselContainer/index.vue";
 </script>
 
 <template>
-  <section id="equipe" class="bg-[#f3f0f1] text-black py-32">
+  <section
+    id="equipe"
+    class="bg-[#f3f0f1] text-black py-32 max-sm:-scroll-mt-72"
+  >
     <Container>
       <SectionTitle textColor="black"> Nossa Equipe </SectionTitle>
 
