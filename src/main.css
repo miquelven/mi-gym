@@ -18,4 +18,15 @@ body {
   .carousel__prev svg {
     color: white;
   }
+
+  #planos .carousel__pagination-button::after {
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50% !important;
+    background: #fff3;
+  }
+
+  #planos .carousel__pagination-button--active::after {
+    background: #ffffffde;
+  }
 }
