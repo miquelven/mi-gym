@@ -18,7 +18,7 @@ const showMenu = ref(true);
           class="transition-all duration-500 max-md:fixed max-md:right-0 max-md:top-[-80vh] max-md:h-[80vh] max-md:w-screen max-md:bg-[#0a0a0a] max-md:flex max-md:justify-center max-md:items-center max-md:shadow-sm max-md:shadow-white/10 max-md:z-[-1] max-md:opacity-0 max-sm:h-screen"
           :class="
             !showMenu
-              ? 'max-md:opacity-100 max-md:z-10 max-md:top-[0vh]'
+              ? 'max-md:opacity-100 max-md:z-20 max-md:top-[0vh]'
               : 'max-md:opacity-0 max-md:z-[-1] max-md:top-[-80vh] max-sm:top-[-100vh]'
           "
         >
