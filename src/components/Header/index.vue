@@ -30,7 +30,7 @@ watch(showMenu, (newValue) => {
         >
           <ul class="flex items-center max-md:flex-col max-md:gap-16">
             <li v-for="link in linksData" :key="link.id" class="px-6">
-              <a :href="link.href">
+              <a @click="showMenu = true" :href="link.href">
                 <span
                   class="transition-all duration-300 font-light text-lg hover:text-[#ef233c] max-md:font-semibold max-md:uppercase max-md:text-xl"
                 >
