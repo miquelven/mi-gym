@@ -1,7 +1,7 @@
-import bodyBuildingImg from "../assets/imgs/bodybuilding.png";
+import bodyBuildingImg from "../assets/imgs/bodybuilding.webp";
 import cardioImg from "../assets/imgs/cardio.webp";
-import fitness from "../assets/imgs/fitness.png";
-import crossfit from "../assets/imgs/crossfit.png";
+import fitness from "../assets/imgs/fitness.webp";
+import crossfit from "../assets/imgs/crossfit.webp";
 
 const modalitiesData = [
   {

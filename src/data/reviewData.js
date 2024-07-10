@@ -1,8 +1,8 @@
-import review1 from "../assets/imgs/review1.png";
-import review2 from "../assets/imgs/review2.png";
-import review3 from "../assets/imgs/review3.png";
-import review4 from "../assets/imgs/review4.png";
-import review5 from "../assets/imgs/review5.avif";
+import review1 from "../assets/imgs/review1.webp";
+import review2 from "../assets/imgs/review2.webp";
+import review3 from "../assets/imgs/review3.webp";
+import review4 from "../assets/imgs/review4.webp";
+import review5 from "../assets/imgs/review5.webp";
 
 const reviewData = [
   {

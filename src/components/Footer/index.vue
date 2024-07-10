@@ -1,7 +1,7 @@
 <script setup>
 import Container from "../Container/index.vue";
 import footerData from "../../data/footerData";
-import logo from "../../assets/imgs/logoMiGym.png";
+import logo from "../../assets/imgs/logoMiGym.webp";
 </script>
 
 <template>

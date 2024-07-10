@@ -1,7 +1,7 @@
 <script setup>
 import Container from "../Container/index.vue";
 import linksData from "../../data/linksData";
-import logo from "../../assets/imgs/logoMiGym.png";
+import logo from "../../assets/imgs/logoMiGym.webp";
 import { ref, watch } from "vue";
 
 const showMenu = ref(true);

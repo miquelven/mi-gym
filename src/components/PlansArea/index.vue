@@ -2,7 +2,7 @@
 import Container from "../Container/index.vue";
 import SectionTitle from "../SectionTitle/index.vue";
 import WhatsappButton from "../WhatsappButton/index.vue";
-import plansImg from "../../assets/imgs/plans.jpg";
+import plansImg from "../../assets/imgs/plans.webp";
 import plansData from "../../data/plansData";
 
 import { Slide } from "vue3-carousel";

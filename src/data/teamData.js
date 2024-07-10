@@ -1,6 +1,6 @@
-import bodyBuilder from "../assets/imgs/bodyBuildingTeam.png";
-import cardio from "../assets/imgs/cardioTeam.png";
-import fitness from "../assets/imgs/fitnessTeam.png";
+import bodyBuilder from "../assets/imgs/bodyBuildingTeam.webp";
+import cardio from "../assets/imgs/cardioTeam.webp";
+import fitness from "../assets/imgs/fitnessTeam.webp";
 import crossfit from "../assets/imgs/crossfitTeam.webp";
 
 const teamData = [
