@@ -5,7 +5,7 @@ import aboutImg from "../../assets/imgs/about.webp";
 </script>
 
 <template>
-  <section class="my-40">
+  <section id="sobre" class="my-40">
     <Container>
       <div
         class="grid grid-cols-2 gap-20 max-xl:gap-10 max-lg:flex max-lg:flex-col-reverse max-lg:gap-14 max-sm:gap-8"

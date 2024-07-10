@@ -6,7 +6,7 @@ import modalitiesData from "../../data/modalitiesData";
 </script>
 
 <template>
-  <section class="mt-72">
+  <section id="modalidades" class="mt-72">
     <SectionTitle> Modalidades Disponíveis </SectionTitle>
 
     <ul class="grid grid-cols-2 mt-20 max-sm:grid-cols-1">
