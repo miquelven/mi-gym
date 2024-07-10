@@ -48,10 +48,10 @@ body {
     width: 16px !important;
     height: 16px !important;
     border-radius: 50% !important;
-    background: #fff3;
+    background: #fff3 !important;
   }
 
   #planos .carousel__pagination-button--active::after {
-    background: #ffffffde;
+    background: #ffffffde !important;
   }
 }
