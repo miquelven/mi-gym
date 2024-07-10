@@ -8,6 +8,11 @@ import PlansArea from "./components/PlansArea/index.vue";
 import ReviewArea from "./components/ReviewArea/index.vue";
 import ToTopButton from "./components/ToTopButton/index.vue";
 import Footer from "./components/Footer/index.vue";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+Aos.init();
 </script>
 
 <template>
