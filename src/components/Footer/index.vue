@@ -85,6 +85,13 @@ import logo from "../../assets/imgs/logoMiGym.webp";
             <p class="font-medium text-lg max-sm:text-base">Domingo</p>
             <span class="max-sm:text-sm">Fechado</span>
           </li>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48393.283460491846!2d-74.09234115136717!3d40.705242000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bdd1d53f4b7%3A0xd4ec442f800bbda4!2sLife%20Time!5e0!3m2!1spt-PT!2sbr!4v1720784530735!5m2!1spt-PT!2sbr"
+            class="w-full h-44 mt-5"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
         </ul>
       </ul>
     </Container>
