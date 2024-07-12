@@ -11,7 +11,7 @@ import modalitiesData from "../../data/modalitiesData";
     data-aos-delay="400"
     data-aos-duration="1000"
     id="modalidades"
-    class="mt-72"
+    class="mt-72 max-sm:scroll-mt-32"
   >
     <SectionTitle> Modalidades Disponíveis </SectionTitle>
 
