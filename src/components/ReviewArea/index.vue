@@ -14,13 +14,7 @@ import reviewData from "../../data/reviewData";
     <Container>
       <SectionTitle textColor="black"> Algumas Avaliações </SectionTitle>
 
-      <component
-        data-aos="fade-up"
-        data-aos-delay="400"
-        data-aos-duration="1000"
-        :is="CarouselContainer"
-        class="mt-14 max-sm:mt-8"
-      >
+      <component :is="CarouselContainer" class="mt-14 max-sm:mt-8">
         <Slide v-for="review in reviewData" :key="review.id" class="py-10">
           <div class="flex flex-col gap-10">
             <img
