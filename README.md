@@ -1,5 +1,45 @@
-# Vue 3 + Vite
+<div align='center'>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# MiGym
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+</div>
+
+</br>
+</br>
+
+![ezgif com-animated-gif-maker (10)](https://github.com/user-attachments/assets/2fa625f1-913e-4ace-8701-7e2fcdded4e7)
+
+
+</br>
+</br>
+</br>
+
+## 🛠️ Construído com
+
+</br>
+
+- 🟢 Vue
+- 📘 JavaScript
+- 🎨 Tailwind CSS
+
+</br>
+</br>
+
+
+## 📚 Sobre o Projeto
+
+</br>
+
+**MiGym** é uma aplicação web moderna e responsiva, criada para divulgar uma academia e atrair clientes. O site apresenta um design elegante e funcional, permitindo aos usuários explorar as últimas tendências e coleções de moda.
+
+</br>
+</br>
+
+## 🚀 Funcionalidades
+
+</br>
+
+- Navegação intuitiva e responsiva
+- Exibição de serviços
+- Design elegante com animações suaves
+
